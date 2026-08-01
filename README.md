@@ -1,32 +1,47 @@
 # 🐍 Sıfırdan Python & Veri Bilimi Notları
 
-Bu depoda; Python'un temel konularından başlayarak **NumPy**, **Pandas** ve **Matplotlib** kütüphaneleri ile yapılan veri analizi ve görselleştirme alıştırmaları yer almaktadır.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific-013243?logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c)
+
+Bu repo; sıfırdan Python öğrenim sürecimden başlayarak Veri Analizi ve Görselleştirme kütüphanelerine (**NumPy, Pandas, Matplotlib**) uzanan kapsamlı kod notlarımı, modüler alıştırmalarımı ve veri seti uygulamalarımı içermektedir.
 
 ---
 
 ## 📌 İçerik Özeti
 
-`sıfırdanpython.py` dosyası içerisinde sırasıyla şu konuların detaylı açıklamaları ve kod örnekleri bulunmaktadır:
+Proje kapsamındaki tüm konular, `sıfırdanpython.py` dosyası içerisinde adım adım ve uygulamalı olarak işlenmiştir:
 
-1. **Python Temelleri:** Veri tipleri, String metotları, List, Tuple, Dictionary, Set.
-2. **Kontrol Yapıları & Döngüler:** `if-elif-else`, `for`, `while`, `list comprehensions`.
-3. **Fonksiyonlar & İleri Konular:** `*args`, `**kwargs`, Lambda, Map/Filter, Scope, Decorators, Iterators.
-4. **Nesne Yönelimli Programlama (OOP):** Sınıflar, Kalıtım (Inheritance), Special Methods.
-5. **Modüller & Dosya Yönetimi:** `os`, `re`, `json`, `datetime` ve `.txt` dosya işlemleri.
-6. **NumPy:** 1D/2D Diziler, Reshape, İstatistiksel işlemler, Matrix Stacking, Filtering.
-7. **Pandas & Veri Analizi:** 
-   * Series ve DataFrame işlemleri
-   * Kayıp/Bozuk Veri Analizi (`dropna`, `fillna`)
-   * Gruplama ve Birleştirme (`groupby`, `merge`, `concat`)
-   * **`imdb.csv`** ve **`nba.csv`** veri setleri üzerine gerçek alıştırmalar.
-8. **Matplotlib Veri Görselleştirme:** Line plot, Subplots, Pie chart, Bar chart ve Histogram grafikleri.
+| Modül | Kapsanan Konular & Yetkinlikler |
+| :--- | :--- |
+| **1. Python Temelleri** | Değişkenler, Veri Tipleri, String Formatlama/Metotları, Veri Yapıları (`List`, `Tuple`, `Dict`, `Set`), Değer ve Referans Tipleri. |
+| **2. Mantık ve Döngüler** | Koşullu İfadeler (`if-elif-else`), `for` & `while` Döngüleri, `break/continue`, `List Comprehensions`, `enumerate` & `zip` kullanımı. |
+| **3. Fonksiyonlar & İleri Konular** | Parametreler (`*args`, `**kwargs`), `lambda`, `map` & `filter`, Scope (`global`/`local`), **Decorators**, **Iterators** & **Generators**. |
+| **4. OOP (Nesne Yönelimli)** | `Class` & `Object` yapısı, Yapıcı Metotlar (`__init__`), Kalıtım (`Inheritance`), Özel (Magic) Metotlar (`__str__`, `__len__`). |
+| **5. Modüller & Dosya Yönetimi** | `math`, `random`, `os`, `re` (Regex), `json` modülleri ve Hata Yönetimi (`try-except`) ile `.txt` dosya okuma/yazma işlemleri. |
+| **6. NumPy ile Veri Manipülasyonu** | 1D/2D Diziler, `shape` & `reshape`, İstatistiksel Metotlar, Satır/Sütun bazlı Toplam (`axis`), Boolean Indexing ve Matrix Stacking. |
+| **7. Pandas ile Veri Analizi** | Series & DataFrame Mimarisi, Filtreleme, Kayıp Veri Yönetimi (`dropna`, `fillna`), Gruplama (`groupby`, `agg`), Birleştirme (`merge`, `concat`). |
+| **8. Matplotlib ile Görselleştirme** | Line Plot, Subplots mimarisi, Bar Chart, Pie Chart (Pasta), Histogram ve Yığılı Alan Grafikleri. |
 
 ---
 
-## 🚀 Çalıştırma
+## 📊 Uygulama Veri Setleri (Real Datasets)
 
-Gerekli kütüphaneleri yükleyip ana dosyayı çalıştırabilirsiniz:
+Depoda yer alan `.csv` veri setleri üzerinde gerçekleştirilen uçtan uca analiz alıştırmaları:
+
+* 🎬 **`imdb.csv`:** Film başlıkları, IMDb puanları ve değerlendirme sayıları üzerinden filtreleme, sıralama ve mantıksal sorgu alıştırmaları.
+* 🏀 **`nba.csv`:** Oyuncu yaşları, takımlar ve maaş verileri üzerinde `groupby` istatistikleri, metin temizleme ve Pandas `string` fonksiyon uygulamaları.
+
+---
+
+## 🚀 Yerelde Çalıştırma
+
+Gerekli kütüphaneleri yükledikten sonra script'i direkt çalıştırabilirsiniz:
 
 ```bash
+# Kütüphaneleri yükleyin
 pip install pandas numpy matplotlib
+
+# Kod dosyasını çalıştırın
 python sıfırdanpython.py
