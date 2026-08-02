@@ -3,7 +3,7 @@
 
 Bu dosya, Python'un temel konularini içeren notlarinizi düzenlenmiş ve geliştirilmiş haliyle sunmaktadir.
 """
-
+  
 # Matematiksel Operatörler
 # ------------------------
 # (+)   Toplama
