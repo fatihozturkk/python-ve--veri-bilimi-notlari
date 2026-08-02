@@ -33,6 +33,7 @@ Depoda yer alan `.csv` veri setleri üzerinde gerçekleştirilen uçtan uca anal
 * 🎬 **`imdb.csv`:** Film başlıkları, IMDb puanları ve değerlendirme sayıları üzerinden filtreleme, sıralama ve mantıksal sorgu alıştırmaları.
 * 🏀 **`nba.csv`:** Oyuncu yaşları, takımlar ve maaş verileri üzerinde `groupby` istatistikleri, metin temizleme ve Pandas `string` fonksiyon uygulamaları.
 
+
 ---
 
 ## 🚀 Yerelde Çalıştırma
@@ -45,3 +46,5 @@ pip install pandas numpy matplotlib
 
 # Kod dosyasını çalıştırın
 python sıfırdanpython.py
+
+
