@@ -44,7 +44,7 @@ Gerekli kütüphaneleri yükledikten sonra script'i direkt çalıştırabilirsin
 # Kütüphaneleri yükleyin
 pip install pandas numpy matplotlib
 
-# Kod dosyasını çalıştırın
+# Kod dosyasını çalıştırın.
 python sıfırdanpython.py
 
 
